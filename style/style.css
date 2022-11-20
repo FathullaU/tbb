@@ -34,7 +34,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .header__list{
     display: flex;
@@ -400,4 +401,11 @@ body{
     text-align: center;
     color: #626262;
     width: 305px;
+}
+.menu-btn{
+    font-size: 20px;
+    font-family: 'Montserrat';
+    border: none;
+    background: transparent;
+    display: none;
 }

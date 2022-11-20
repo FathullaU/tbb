@@ -1,0 +1,241 @@
+@media (max-width:1253px){
+    .intro__title{
+        font-size: 40px;
+        line-height: 51px;
+    }
+    .info-top__content{
+        width: unset;
+    }
+    .mobile__item{
+        padding: 0 30px;
+    }
+}
+@media (max-width:1140px){
+    .intro__title{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .info-top__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-top__items{
+        justify-content: center;
+    }
+    .offer-card__price{
+        max-width: 420px;
+        width: 100%;
+    }
+}
+@media (max-width:1024px){
+    .intro__title{
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+    }
+    .intro__content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile__item .title{
+        font-size: 25px;
+    }
+    .mobile__item{
+        gap: unset;
+        justify-content: space-between;
+    }
+}
+@media (max-width:900px){
+    .info-bottom{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .mobile__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile__inner{
+        row-gap: 30px;
+    }
+    .mobile__item{
+        justify-content: center;
+        column-gap: 30px;
+    }
+}
+@media (max-width:856px){
+    .header__menu,
+    .header__list{
+        gap: 15px;
+    }
+}
+@media (max-width:826px){
+    .info-top{
+        flex-direction: column;
+    }
+}
+@media (max-width:768px){
+    .header__menu{
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        right: 0;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        z-index: 999;
+        backdrop-filter: blur(15px);
+        bottom: 0;
+        box-shadow: -5px -3px 20px 0px rgba(0 0 0 / 44%);
+        transform: translateX(100%);
+        transition: 0.3s linear;
+    }
+    .header__list{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .menu-btn:focus+.header__menu{
+        transform: translateX(0);
+    }
+    .intro{
+        height: max-content;
+    }
+}
+@media (max-width:712px){
+    .offer__content{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .intro-top__item{
+        width: 278px;
+    }
+    .info-item__img{
+        margin-right: 10px;
+    }
+}
+@media (max-width:630px){
+    .intro__content img{
+        width: 100%;
+    }
+    .intro__app{
+        width: 95%;
+    }
+    .intro__title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+@media (max-width:615px){
+    .info-item__img{
+        margin-right: 30px;
+    }
+    .info-top__item{
+        width: 310px;
+    }
+}
+@media (max-width:525px){
+    .info-bottom img{
+        width: 100%;
+    }
+}
+@media (max-width:505px){
+    .intro__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .intro__app{
+        padding: 10px 0;
+    }
+    .intro__app img{
+        width: 120px;
+    }
+    .info-top__img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .offer,
+    .info-bottom{
+        margin-top: 30px;
+    }
+    .footer{
+        padding-top: 20px;
+    }
+    .mobile{
+        padding-bottom: 20px;
+    }
+    .info{
+        margin-top: 50px;
+    }
+}
+@media (max-width:425px){
+    .mobile__item{
+        column-gap: 10px;
+        padding: 0 15px;
+    }
+    .mobile__app-link{
+        padding: 10px 0;
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+    .mobile__app-img{
+        width: 120px;
+    }
+    .footer__logo img{
+        width: 150px;
+    }
+}
+@media (max-width:400px){
+    .mobile__inner:nth-of-type(1) .mobile__img{
+        width: 100%;
+    }
+    .offer-card img{
+        display: none;
+    }
+    .offer-card__info .btn{
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media (max-width:375px){
+    .intro__title{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .info-top__item{
+        width: 100%;
+    }
+    .mobile__item{
+        flex-direction: column !important;
+    }
+    .offer-card__info .btn{
+        width: 100%;
+    }
+    .btn-center{
+        width: 90%;
+    }
+    .header__menu{
+        width: 100%;
+        box-shadow: unset;
+        transform: translateY(-100%);
+    }
+    .header__list{
+        align-items: center;
+    }
+}
+@media (max-width:320px){
+    .info-item__img{
+        margin-right: 12px;
+    }
+    .mobile__item .title{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .mobile__app{
+        gap: 10px;
+    }
+}
